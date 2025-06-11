@@ -1,0 +1,14 @@
+qwen-vl-utils==0.0.10
+transformers-stream-generator==0.0.4
+torch
+torchvision
+git+https://github.com/huggingface/transformers.git
+accelerate
+av
+notebook
+tabula
+tabula-py
+PyPDF2
+pdfplumber
+requests
+pymupdf4llm
