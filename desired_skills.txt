@@ -1,0 +1,6 @@
+object detection
+semantic segmentation
+image classification
+computer vision
+transformers
+vision transformers

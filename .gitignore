@@ -197,3 +197,5 @@ cython_debug/
 *temp/
 *temp.png
 *data/
+output/*
+!output/.gitkeep
