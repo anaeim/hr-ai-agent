@@ -37,7 +37,8 @@ This ensures a hiring process that is:
 By removing manual bottlenecks and unconscious bias, AgentAI significantly improves the **quality and consistency** of hiring decisions.
 
 
-![solution](./images/HR-AI-Agent.drawio.png)
+![high-level-solution](./images/HR-AI-Agent-high-level.drawio.png)
+![process-detail-solution](./images/HR-AI-Agent-process-detail.drawio.png)
 ---
 
 ## 📁 HR AIAgent Workflow
