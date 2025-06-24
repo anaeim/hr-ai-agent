@@ -15,7 +15,7 @@ Modern HR departments face an overwhelming volume of applications for every job 
 
 - **Significant delays** in the hiring process
 - **Overlooked qualified candidates**
-- **Inconsistent and biased hiring decisions**
+- **Inconsistent and robust hiring decisions**
 
 These challenges make it difficult for companies to build strong, diverse, and high-performing teams.
 
@@ -35,14 +35,14 @@ AgentAI is an AI-powered HR Agent designed to transform how organizations handle
 
 - **Automatically screening resumes** with layout-aware PDF understanding
 - **Identifying top candidates** using job-specific skill assessment
-- **Providing unbiased shortlists** through structured evaluation and reranking
+- **Providing consistent shortlists** through structured evaluation and reranking
 
 This ensures a hiring process that is:
 - **Faster** – drastically reducing time-to-hire
 - **Fairer** – evaluating candidates objectively
 - **More accurate** – matching resumes to role requirements with high precision
 
-By removing manual bottlenecks and unconscious bias, AgentAI significantly improves the **quality and consistency** of hiring decisions.
+By removing manual bottlenecks and unconscious, AgentAI significantly improves the **quality and consistency** of hiring decisions.
 
 
 ![high-level-solution](./images/HR-AI-Agent-high-level.drawio.png)
