@@ -19,6 +19,14 @@ Modern HR departments face an overwhelming volume of applications for every job 
 
 These challenges make it difficult for companies to build strong, diverse, and high-performing teams.
 
+#### Weaknesses of conventional Applicant Tracking Systems (ATS):
+- **Inability to process diverse resume formats and layouts**: difficulties in accurately parsing resumes that deviate from rigid highly standardized formats like including complex tables, columns by LaTeX
+- **Over-reliance on keywords**: Candidates may be overlooked if they don't use exact terms from the job description.
+- **Lack of context, lack of language understanding**: These methods often miss nuances like transferable skills, highly similar skills, or potential.
+- **Lack of fine-grained filtering**: "resume hacking" or "keyword stuffing" may trick ATS. Also  heavily on formal qualifications and quantifiable hard skills such as degrees, certifications, and specific technical abilities. However, ATS may miss the responsibilities, scope, and experience gained in the different environments.
+- **Lack of ranking model based on textual content of resumes**. ATS ranks only based on the existence of skills, education, certificates, and years of experience.
+
+
 ---
 
 ## ✅ The Solution
