@@ -3,9 +3,9 @@
 
 ## Overview
 
-**AgentAI** is an intelligent HR Agent built to streamline and enhance the recruitment process. Designed specifically for modern HR departments struggling with high volumes of job applications, AgentAI leverages advanced AI models to **automatically parse resumes**, **evaluate candidate skills**, and **generate ranked shortlists**—making hiring **faster, fairer, and more accurate**.
+**AgentAI** is an intelligent HR Agent built to streamline and enhance workforce management and recruitment process. Designed specifically for modern HR departments struggling with high volumes of job applications, AgentAI leverages advanced AI models to **automatically parse resumes**, **evaluate candidate skills**, and **generate ranked shortlists**—making hiring **faster, fairer, and more accurate**.
 
-This Jupyter-based application integrates cutting-edge Vision-Language and Large Language Models to understand resume layouts, grade skill presence, generate structured skill summaries, and rerank top candidates.
+This LLM-based application integrates cutting-edge Vision-Language and Large Language Models to understand resume layouts, grade skill presence, evaluate expertise levels for each skill, generate structured skill summaries, and rerank top candidates.
 
 ---
 
@@ -46,6 +46,7 @@ By removing manual bottlenecks and unconscious, AgentAI significantly improves t
 
 
 ![high-level-solution](./images/HR-AI-Agent-high-level.drawio.png)
+
 ![process-detail-solution](./images/HR-AI-Agent-process-detail.drawio.png)
 ---
 
@@ -78,17 +79,37 @@ binary_score: bool = True | False
 ![alt text](./images/skill_grader_example.png)
 ---
 
-### 🔎 1st Screening Step – Skill-Based Filtering
+### 3. 🔎 1st Screening Step – Skill-Based Filtering
 
 - Resumes are evaluated based on required skills using a binary skill table (with True/False values).
 - Only resumes with True for all required skills are selected to move forward.
 - This step filters out unqualified candidates, narrowing the pool to those who meet the minimum skill criteria.
 ---
 
+### 4. 🧪 Fine-grained Skill Grader
+The **Fine-grained Skill Grader** performs detailed, context-aware skill assessment for each candidate.  
+- **Granular evidence extraction** – Identifies concrete instances where a skill was applied, capturing project descriptions, responsibilities, and measurable outcomes.  
+- **Experience quantification** – Calculates both the **number of distinct key experiences** and the **aggregate duration** (in months) for each skill.  
+- **Context validation** – Mitigates “keyword stuffing” by verifying that skills are substantiated with real-world, domain-relevant experience rather than superficial mentions.  
 
+This step transforms skill detection from a binary check into a **multi-dimensional evaluation**, enabling recruiters to differentiate between superficial familiarity and genuine expertise.  
 
+Example of grader output:
 
-### 3. 🧠 Skill Summary Writer
+![alt text](./images/fine_grained_skill_grader_example.png)
+---
+
+### 5. 🔎 2nd Screening Step – Proficiency-Based Candidate Filtering
+This stage applies **customizable, rule-based filtering** on top of fine-grained skill data.  
+- **HR-defined decision logic** – Uses thresholds such as *minimum number of key experiences* and *minimum cumulative months of experience* to define acceptable proficiency levels.  
+- **Precision candidate pruning** – Eliminates candidates whose practical exposure falls below the required benchmarks, even if they pass basic skill matching.  
+- **Role-specific adaptability** – Filtering criteria can be tuned per role to ensure alignment with both technical complexity and business needs.  
+
+By leveraging structured, quantitative skill metrics, this step ensures only candidates with **verified, role-ready experience** progress to the next screening stage. 
+ 
+---
+
+### 6. 🧠 Skill Summary Writer
 
 - Evaluates skill depth if the skill is found in a resume.
 - Generates a **structured summary** including:
@@ -115,7 +136,7 @@ binary_score: bool = True | False
 
 ---
 
-### 4. 📊 Resume Reranker
+### 7. 📊 Resume Reranker
 
 - Ranks resumes against an **ideal candidate profile**.
 - Optimizes final selection for hiring teams.
@@ -123,7 +144,7 @@ binary_score: bool = True | False
 
 ---
 
-### 🎖️ 2nd screening step – Ranking-Based Selection
+### 8. 🎖️ 3rd screening step – Ranking-Based Selection
 - Resumes that passed the 1st screening are compared against an ideal candidate profile, which defines the most desirable combination of skills, experience, and qualifications.
 - Each resume is scored or ranked based on how closely it matches this ideal profile.
 - Top-ranked resumes are selected for the next stage (e.g., interview or manual review), ensuring focus on the most promising candidates.
