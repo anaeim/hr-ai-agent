@@ -1,12 +1,13 @@
 
-# 🧠 AgentAI - HR Application Assistant
+# 🧠 AIAgent - HR Application Assistant
 
 ## Overview
 
-**AgentAI** is an intelligent HR Agent built to streamline and enhance workforce management and recruitment process. Designed specifically for modern HR departments struggling with high volumes of job applications, AgentAI leverages advanced AI models to **automatically parse resumes**, **evaluate candidate skills**, and **generate ranked shortlists**—making hiring **faster, fairer, and more accurate**.
+**AIAgent** is an intelligent HR Agent built to streamline and enhance workforce management and recruitment process. Designed specifically for modern HR departments struggling with high volumes of job applications, AIAgent leverages advanced AI models to **automatically parse resumes**, **evaluate candidate skills**, and **generate ranked shortlists**—making hiring **faster, fairer, and more accurate**.
 
 This LLM-based application integrates cutting-edge Vision-Language and Large Language Models to understand resume layouts, grade skill presence, evaluate expertise levels for each skill, generate structured skill summaries, and rerank top candidates.
 
+![high-level-solution](./images/HR-AI-Agent-high-level.drawio.png)
 ---
 
 ## 🚨 The Problem
@@ -31,7 +32,7 @@ These challenges make it difficult for companies to build strong, diverse, and h
 
 ## ✅ The Solution
 
-AgentAI is an AI-powered HR Agent designed to transform how organizations handle recruitment. It addresses these challenges by:
+AIAgent is an AI-powered HR Agent designed to transform how organizations handle recruitment. It addresses these challenges by:
 
 - **Automatically screening resumes** with layout-aware PDF understanding
 - **Identifying top candidates** using job-specific skill assessment
@@ -42,10 +43,8 @@ This ensures a hiring process that is:
 - **Fairer** – evaluating candidates objectively
 - **More accurate** – matching resumes to role requirements with high precision
 
-By removing manual bottlenecks and unconscious, AgentAI significantly improves the **quality and consistency** of hiring decisions.
+By removing manual bottlenecks and unconscious, AIAgent significantly improves the **quality and consistency** of hiring decisions.
 
-
-![high-level-solution](./images/HR-AI-Agent-high-level.drawio.png)
 
 ![process-detail-solution](./images/HR-AI-Agent-process-detail.drawio.png)
 ---
@@ -194,4 +193,4 @@ By leveraging structured, quantitative skill metrics, this step ensures only can
 
 ## 📬 Contact
 
-For more information or integration support, reach out to the AgentAI team.
+For more information or integration support, reach out to the AIAgent team.
