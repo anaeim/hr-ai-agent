@@ -17,6 +17,7 @@ Modern HR departments face an overwhelming volume of applications for every job 
 - **Significant delays** in the hiring process
 - **Overlooked qualified candidates**
 - **Inconsistent and robust hiring decisions**
+- **Vulnerability to keyword stuffing / resume hacking** – Many ATS can be tricked by applicants who simply copy job description skills into their resume without real experience, leading to unqualified candidates advancing in the process.  
 
 These challenges make it difficult for companies to build strong, diverse, and high-performing teams.
 
@@ -37,14 +38,15 @@ AIAgent is an AI-powered HR Agent designed to transform how organizations handle
 - **Automatically screening resumes** with layout-aware PDF understanding
 - **Identifying top candidates** using job-specific skill assessment
 - **Providing consistent shortlists** through structured evaluation and reranking
+- **Prevents keyword stuffing / resume hacking** – Uses a Fine-grained Skill Grader and Proficiency-Based Candidate Filtering to verify that claimed skills are backed by genuine, role-relevant experience before shortlisting.  
+
 
 This ensures a hiring process that is:
 - **Faster** – drastically reducing time-to-hire
 - **Fairer** – evaluating candidates objectively
 - **More accurate** – matching resumes to role requirements with high precision
 
-By removing manual bottlenecks and unconscious, AIAgent significantly improves the **quality and consistency** of hiring decisions.
-
+By removing manual bottlenecks, mitigating keyword-stuffing tricks, and introducing multi-dimensional skill validation, AIAgent significantly improves the **quality and consistency** of hiring decisions.
 
 ![process-detail-solution](./images/HR-AI-Agent-process-detail.drawio.png)
 ---
